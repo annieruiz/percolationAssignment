@@ -15,8 +15,8 @@ public class Percolation {
 	private final int LENGTH;
 	private int totSites;
 	private int openSites; // keeps track of open sites
-	private static int virtualTop;
-	private static int virtualBottom;
+	private int virtualTop;
+	private int virtualBottom;
 
 	/**
 	 * Creates N-by-N grid, with all sites blocked Has two extra nodes as the
